@@ -1,0 +1,37 @@
+/* normalize css */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+        box-sizing: border-box;
+        font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+        background: url(https://grillatqc.com/wp-content/uploads/2016/06/menu-background.jpg) no-repeat fixed center;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+nav {
+background-color: rgb(118 152 78 / 77%);
+}
+
+main {
+    background-color: peru
+}
+
+header {
+    font-family: 'Macondo', cursive;
+    background-color: hotpink;
+}
+
+footer {
+    background-color: plum;
+}
